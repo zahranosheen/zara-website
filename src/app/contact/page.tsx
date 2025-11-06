@@ -66,7 +66,7 @@ export default function ContactPage() {
             <Card className="border-border">
               <CardHeader>
                 <CardTitle className="font-heading text-2xl">Send us a Message</CardTitle>
-                <CardDescription>Fill out the form below and we'll get back to you within 24 hours.</CardDescription>
+                <CardDescription>Fill out the form below and we shall get back to you within 24 hours.</CardDescription>
               </CardHeader>
               <CardContent>
                 <form onSubmit={handleSubmit} className="space-y-6">
@@ -78,7 +78,7 @@ export default function ContactPage() {
                         name="name"
                         value={formData.name}
                         onChange={handleChange}
-                        placeholder="Zahra Nosheen"
+                        placeholder="Your Name"
                         required
                         className="border-input"
                       />
@@ -91,7 +91,7 @@ export default function ContactPage() {
                         type="email"
                         value={formData.email}
                         onChange={handleChange}
-                        placeholder="Zahranosheen786@.gmail"
+                        placeholder="Your email"
                         required
                         className="border-input"
                       />
@@ -151,7 +151,7 @@ export default function ContactPage() {
               <div>
                 <h2 className="font-heading text-3xl font-bold text-foreground mb-6">Get in Touch</h2>
                 <p className="text-lg text-muted-foreground mb-8">
-                  We're here to help you succeed. Reach out to us through any of the following channels.
+                  We are here to help you succeed. Reach out to us through any of the following channels.
                 </p>
               </div>
 
@@ -200,11 +200,11 @@ export default function ContactPage() {
                         <h3 className="font-heading text-lg font-semibold mb-1">Visit Us</h3>
                         <p className="text-muted-foreground mb-2">Come say hello at our office</p>
                         <address className="text-primary not-italic">
-                          123 Business Street
+                          P/O Ahmad Nager
                           <br />
                           Suite 100
                           <br />
-                          City, State 12345
+                          City, Chiniot
                         </address>
                       </div>
                     </div>

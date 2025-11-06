@@ -13,11 +13,11 @@ export default function HomePage() {
       <section className="py-20 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto text-center">
           <h1 className="font-heading text-4xl md:text-6xl font-bold text-foreground mb-6 text-balance">
-            Modern Business Solutions for <span className="text-primary">Tomorrow's Success</span>
+            Modern Business Solutions for <span className="text-primary">Tomorrow Success</span>
           </h1>
           <p className="text-xl text-muted-foreground mb-8 max-w-3xl mx-auto text-pretty">
             We deliver innovative strategies and cutting-edge solutions that transform your business and drive
-            sustainable growth in today's competitive landscape.
+            sustainable growth in today is competitive landscape.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button size="lg" className="bg-primary hover:bg-primary/90 text-primary-foreground">
@@ -37,7 +37,7 @@ export default function HomePage() {
           <div className="text-center mb-12">
             <h2 className="font-heading text-3xl md:text-4xl font-bold text-card-foreground mb-4">Why Choose BASIT?</h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              We combine expertise, innovation, and dedication to deliver exceptional results for your business.
+              We combine expertise innovation and dedication to deliver exceptional results for your business.
             </p>
           </div>
 
@@ -73,7 +73,7 @@ export default function HomePage() {
                 </div>
                 <CardTitle className="font-heading">Premium Quality</CardTitle>
                 <CardDescription>
-                  Exceptional standards in every project, ensuring results that exceed expectations.
+                  Exceptional standards in every project ensuring results that exceed expectations.
                 </CardDescription>
               </CardHeader>
             </Card>
@@ -146,7 +146,7 @@ export default function HomePage() {
             Ready to Transform Your Business?
           </h2>
           <p className="text-xl mb-8 opacity-90 text-pretty">
-            Let's discuss how we can help you achieve your goals and drive sustainable growth.
+            Lets discuss how we can help you achieve your goals and drive sustainable growth.
           </p>
           <Button size="lg" variant="secondary" asChild>
             <Link href="/contact">

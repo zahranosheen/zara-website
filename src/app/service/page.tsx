@@ -110,8 +110,8 @@ export default function ServicesPage() {
             Professional Services for <span className="text-primary">Modern Businesses</span>
           </h1>
           <p className="text-xl text-muted-foreground mb-8 text-pretty">
-            Comprehensive solutions designed to accelerate your growth, optimize operations, and drive sustainable
-            success in today's competitive market.
+            Comprehensive solutions designed to accelerate your growth optimize operations and drive sustainable
+            success in today is competitive market.
           </p>
         </div>
       </section>
@@ -198,7 +198,7 @@ export default function ServicesPage() {
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="font-heading text-3xl md:text-4xl font-bold mb-4 text-balance">Ready to Get Started?</h2>
           <p className="text-xl mb-8 opacity-90 text-pretty">
-            Let's discuss your project requirements and create a customized solution for your business.
+            Lets discuss your project requirements and create a customized solution for your business.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button size="lg" variant="secondary" asChild>
